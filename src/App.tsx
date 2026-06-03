@@ -509,9 +509,9 @@ export default function App() {
                 </div>
                 <button
                   onClick={() => setConfig(prev => ({ ...prev, pixelScale: !prev.pixelScale }))}
-                  className={`relative w-11 h-6 rounded-full transition-colors cursor-pointer ${config.pixelScale ? 'bg-cyan-500' : 'bg-slate-700'}`}
+                  className={`relative inline-flex h-6 w-11 shrink-0 items-center rounded-full transition-colors cursor-pointer ${config.pixelScale ? 'bg-cyan-500' : 'bg-slate-700'}`}
                 >
-                  <span className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${config.pixelScale ? 'translate-x-5.5' : 'translate-x-0.5'}`}></span>
+                  <span className={`inline-block h-4 w-4 rounded-full bg-white shadow transform transition-transform ${config.pixelScale ? 'translate-x-6' : 'translate-x-1'}`}></span>
                 </button>
               </div>
 
@@ -523,9 +523,9 @@ export default function App() {
                 </div>
                 <button
                   onClick={() => setConfig(prev => ({ ...prev, centered: !prev.centered }))}
-                  className={`relative w-11 h-6 rounded-full transition-colors cursor-pointer ${config.centered ? 'bg-cyan-500' : 'bg-slate-700'}`}
+                  className={`relative inline-flex h-6 w-11 shrink-0 items-center rounded-full transition-colors cursor-pointer ${config.centered ? 'bg-cyan-500' : 'bg-slate-700'}`}
                 >
-                  <span className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${config.centered ? 'translate-x-5.5' : 'translate-x-0.5'}`}></span>
+                  <span className={`inline-block h-4 w-4 rounded-full bg-white shadow transform transition-transform ${config.centered ? 'translate-x-6' : 'translate-x-1'}`}></span>
                 </button>
               </div>
             </div>
@@ -697,7 +697,7 @@ export default function App() {
                     onClick={() => setConfig(prev => ({ ...prev, fwEnableFormBar: !prev.fwEnableFormBar }))}
                     className={`relative w-11 h-6 rounded-full transition-colors cursor-pointer ${config.fwEnableFormBar ? 'bg-cyan-500' : 'bg-slate-700'}`}
                   >
-                    <span className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${config.fwEnableFormBar ? 'translate-x-5.5' : 'translate-x-0.5'}`}></span>
+                    <span className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${config.fwEnableFormBar ? 'translate-x-[22px]' : 'translate-x-0.5'}`}></span>
                   </button>
                 </div>
                 <div className="bg-slate-950/60 border border-slate-800 rounded-lg p-3 flex items-center justify-between">
@@ -709,7 +709,7 @@ export default function App() {
                     onClick={() => setConfig(prev => ({ ...prev, fwCloseOnOk: !prev.fwCloseOnOk }))}
                     className={`relative w-11 h-6 rounded-full transition-colors cursor-pointer ${config.fwCloseOnOk ? 'bg-cyan-500' : 'bg-slate-700'}`}
                   >
-                    <span className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${config.fwCloseOnOk ? 'translate-x-5.5' : 'translate-x-0.5'}`}></span>
+                    <span className={`absolute top-0.5 w-5 h-5 bg-white rounded-full shadow transition-transform ${config.fwCloseOnOk ? 'translate-x-[22px]' : 'translate-x-0.5'}`}></span>
                   </button>
                 </div>
               </div>
