@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/simulador-interface-advpl/',
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
