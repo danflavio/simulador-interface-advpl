@@ -1,0 +1,6 @@
+{
+  "name": "Simulador de Diálogo ADVPL",
+  "description": "Gerador e simulador interativo de código ADVPL para criação de janelas simples com inputs personalizados para o ERP Protheus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

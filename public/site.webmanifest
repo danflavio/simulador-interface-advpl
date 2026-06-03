@@ -1,0 +1,20 @@
+{
+  "name": "Simulador de Interfaces ADVPL",
+  "short_name": "ADVPL Builder",
+  "description": "Construa interfaces visuais ADVPL para Protheus interativamente. Suporte a MsDialog, TDialog, FWDialogModal, MsNewGetDados e Enchoice.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#06b6d4",
+  "orientation": "landscape-primary",
+  "categories": ["developer", "productivity", "utilities"],
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#020617"/>
+  <rect width="1200" height="630" fill="url(#gridPattern)" opacity="0.15"/>
+  
+  <!-- Gradient accent bar -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#accentGrad)"/>
+  
+  <!-- Main content area -->
+  <!-- Logo icon -->
+  <rect x="80" y="180" width="80" height="80" rx="18" fill="url(#logoGrad)"/>
+  <text x="100" y="237" font-family="monospace" font-size="32" font-weight="bold" fill="#020617">&lt;/&gt;</text>
+  
+  <!-- Title -->
+  <text x="190" y="215" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="bold" fill="white">Simulador de Interfaces ADVPL</text>
+  <text x="190" y="255" font-family="system-ui, -apple-system, sans-serif" font-size="22" fill="#94a3b8">Construtor Visual para Protheus | TOTVS ERP</text>
+  
+  <!-- Feature chips -->
+  <rect x="80" y="310" width="140" height="36" rx="8" fill="#164e63" stroke="#06b6d4" stroke-width="1"/>
+  <text x="108" y="334" font-family="monospace" font-size="14" fill="#67e8f9">MsDialog</text>
+  
+  <rect x="240" y="310" width="120" height="36" rx="8" fill="#164e63" stroke="#06b6d4" stroke-width="1"/>
+  <text x="268" y="334" font-family="monospace" font-size="14" fill="#67e8f9">TDialog</text>
+  
+  <rect x="380" y="310" width="180" height="36" rx="8" fill="#164e63" stroke="#06b6d4" stroke-width="1"/>
+  <text x="400" y="334" font-family="monospace" font-size="14" fill="#67e8f9">FWDialogModal</text>
+  
+  <rect x="580" y="310" width="180" height="36" rx="8" fill="#164e63" stroke="#06b6d4" stroke-width="1"/>
+  <text x="600" y="334" font-family="monospace" font-size="14" fill="#67e8f9">MsNewGetDados</text>
+  
+  <rect x="780" y="310" width="130" height="36" rx="8" fill="#164e63" stroke="#06b6d4" stroke-width="1"/>
+  <text x="805" y="334" font-family="monospace" font-size="14" fill="#67e8f9">Enchoice</text>
+  
+  <!-- Simulated window preview -->
+  <rect x="700" y="380" width="420" height="200" rx="8" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
+  <rect x="700" y="380" width="420" height="28" rx="8" fill="#1e40af"/>
+  <rect x="700" y="400" width="420" height="8" fill="#1e40af"/>
+  <circle cx="716" cy="394" r="4" fill="#fbbf24"/>
+  <circle cx="728" cy="394" r="4" fill="#34d399"/>
+  <circle cx="740" cy="394" r="4" fill="#f87171"/>
+  <text x="755" y="398" font-family="system-ui" font-size="11" fill="white">Minha Janela ADVPL</text>
+  
+  <!-- Input field preview -->
+  <text x="720" y="435" font-family="system-ui" font-size="12" fill="#374151">Nome:</text>
+  <rect x="770" y="420" width="200" height="22" rx="3" fill="white" stroke="#9ca3af"/>
+  
+  <text x="720" y="470" font-family="system-ui" font-size="12" fill="#374151">Valor:</text>
+  <rect x="770" y="455" width="200" height="22" rx="3" fill="white" stroke="#9ca3af"/>
+  
+  <!-- Buttons -->
+  <rect x="830" y="540" width="80" height="24" rx="4" fill="#f3f4f6" stroke="#9ca3af"/>
+  <text x="844" y="557" font-family="system-ui" font-size="11" fill="#374151">Confirmar</text>
+  <rect x="920" y="540" width="70" height="24" rx="4" fill="#e5e7eb" stroke="#9ca3af"/>
+  <text x="935" y="557" font-family="system-ui" font-size="11" fill="#6b7280">Cancelar</text>
+  
+  <!-- Bottom tagline -->
+  <text x="80" y="580" font-family="system-ui, sans-serif" font-size="16" fill="#64748b">Design visual → Preview em tempo real → Download .PRW → Compile no TDS</text>
+  
+  <!-- Definitions -->
+  <defs>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1200" y2="0">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="80" y2="80">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <pattern id="gridPattern" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+</svg>
